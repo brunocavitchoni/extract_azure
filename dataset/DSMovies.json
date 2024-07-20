@@ -1,0 +1,25 @@
+{
+	"name": "DSMovies",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerMovies",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "movies"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://raw.githubusercontent.com/cacaviana/DataFactory/main/moviesDB.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
