@@ -1,9 +1,0 @@
-{
-	"name": "DFMovies1",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "9e579cd3-7e3e-431b-8a15-1fb5c13be55c",
-		"tenantId": "b7a9684e-c2eb-477d-b074-5cb8272db319"
-	}
-}
